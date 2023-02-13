@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringtestApplication {
 
 	@GetMapping("/message")
-	public String getmessage(){
-		return "This is first spring boot applicaiton.";
+	public String message(){
+		return "Congrats ! your application deployed successfully in Azure Platform. !";
 	}
 
 	public static void main(String[] args) {
